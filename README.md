@@ -1,50 +1,25 @@
-# Hiver SDE Intern Take-Home — Customer Support Agent
+# Hiver SDE Intern Take-Home — AmazonHelp Customer-Support Agent
 
 ## Selected brand
 **AmazonHelp**
 
-The supplied `twcs_sample.csv` contains 5,000 rows. Within that sample there are **154 inbound AmazonHelp messages** and **192 AmazonHelp support replies**, so AmazonHelp is a practical choice for the required 150–250-example evaluation set.
+This repository contains a reproducible customer-support agent built from the supplied `twcs_sample.csv` sample.
 
-## What this project does
-1. Classifies an incoming customer message into a small intent taxonomy.
-2. Produces a support reply grounded in patterns seen in historical AmazonHelp replies.
-3. Decides between `auto_handle` and `escalate` using conservative rules for billing, account access, legal/fraud concerns, and repeated unresolved contacts.
-4. Includes a 154-example **AI-assisted candidate** evaluation set and 116 linked customer/reply pairs.
+### Project goals
+1. Classify an incoming customer message into a compact intent taxonomy.
+2. Draft a safe support response based on historical support patterns.
+3. Decide whether to auto-handle or escalate to a human, with an explicit reason.
+4. Evaluate the approach against simple baselines.
 
-## Important evaluation note
-The assignment asks for a **hand-labelled** golden set. The supplied candidate set was created with an AI-assisted deterministic annotation rubric. **Review/correct the 154 rows manually before submitting if you want to claim it is hand-labelled.** Do not describe the current file as independently human-labelled.
+## Dataset facts
+The supplied sample contains **5,000 rows**. In that sample:
+- 154 inbound AmazonHelp messages
+- 192 outbound AmazonHelp replies
+- 116 linked inbound/reply pairs
 
-## Run
-```bash
-pip install -r requirements.txt
-python src/agent.py --message "@AmazonHelp My package says delivered but I never received it."
-```
+The 154 inbound AmazonHelp messages are exported as `golden_eval_candidate.csv`.
 
-Example output:
-```json
-{
-  "brand": "AmazonHelp",
-  "intent": "delivery_not_received",
-  "action": "auto_handle",
-  "reason": "Routine support request with no explicit high-risk trigger.",
-  "draft_reply": "I'm sorry the package hasn't arrived..."
-}
-```
-
-Run evaluation:
-```bash
-python src/evaluate.py
-```
-
-## Repository structure
-- `src/agent.py` — runnable support agent
-- `src/evaluate.py` — evaluation entry point
-- `data/twcs_sample.csv` — supplied sample data
-- `data/amazonhelp_pairs.csv` — linked customer/reply examples
-- `eval/golden_eval_candidate.csv` — 154 candidate evaluation examples
-- `reports/report.md` — take-home report
-- `reports/results.json` — measured dataset/evaluation facts
-- `reports/decision_log.md` — non-obvious design decisions
+> **Evaluation integrity note:** the candidate labels were generated with an AI-assisted deterministic rubric. They are **not independent human annotations**. Before claiming a "hand-labelled golden set" in a final submission, manually review/correct these 154 rows and then rename the file `golden_eval.csv`.
 
 ## Intent taxonomy
 - delivery_tracking
@@ -58,3 +33,47 @@ python src/evaluate.py
 - human_escalation
 - acknowledgement
 - other
+
+## Run locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the agent:
+
+```bash
+python agent.py --message "@AmazonHelp My package says delivered but I never received it."
+```
+
+Run evaluation:
+
+```bash
+python evaluate.py
+```
+
+## Example
+Input:
+`@AmazonHelp My package says delivered but I never received it.`
+
+The agent returns JSON containing:
+- `intent`
+- `action` (`auto_handle` or `escalate`)
+- `reason`
+- `draft_reply`
+
+## Files
+- `agent.py` — runnable support agent
+- `evaluate.py` — evaluation entry point
+- `twcs_sample.csv` — supplied sample
+- `amazonhelp_pairs.csv` — linked historical customer/reply examples
+- `golden_eval_candidate.csv` — 154 candidate evaluation examples
+- `results.json` — measured dataset facts
+- `report.md` — take-home report
+- `decision_log.md` — non-obvious design decisions
+- `requirements.txt` — Python dependencies
+
+## Evaluation caveat
+The reported intent proxy score is agreement with the deterministic annotation rubric, not independent human-ground-truth accuracy. Response retrieval is evaluated on a held-out subset of linked examples. This distinction is intentional so that the evaluation does not overclaim quality.
