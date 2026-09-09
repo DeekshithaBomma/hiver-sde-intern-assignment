@@ -1,0 +1,163 @@
+tweet_id,customer_message,intent,in_response_to_tweet_id,brand,annotation_status,expected_action
+270,"@AmazonHelp ありがとうございます。
+今、電話で主人が対応していただいてます。",acknowledgement,269.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+271,"@AmazonHelp 電話で対応してもらいましたが改良されませんでした。
+保証期間も過ぎてるので買い直しになるんでしょうね。",other,269.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+274,@AmazonHelp こちらこそありがとうございました。,other,273.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+616,"@AmazonHelp 3 different people have given 3 different answers and I still don't have my order. Says delivered Saturday, was not, I was home all day",delivery_tracking,615.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+619,"@AmazonHelp I frankly don't have the patience for another chat with your ""customer service"" people today.",other,618.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+623,"@AmazonHelp Okay, danke für die Info",acknowledgement,622.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+627,@AmazonHelp @115826 Yeah this is crazy we’re less than a week away and still no Shipping Information on something that we Pre-ordered back in August,order_cancel_change,626.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+634,@115821 @AmazonHelp why is my order at my local courier for the last 6 days and still hasn’t been delivered to me?? Over 1 week late 😡,delivery_not_received,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+638,@AmazonHelp Hi ready for some help,other,639.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+640,@AmazonHelp Is the Echo Show no longer supported?,product_support,641.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+641,@AmazonHelp Nothing there helped me with the Echo Show,product_support,642.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+643,"Bought an @115821 Echo Show and it won’t recognize a single @AmazonHelp account in our household. WTF, guys?",account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+645,@AmazonHelp That page is useless - doesn’t allow me to state it hasn’t been delivered; only tells me it has! How can you sort this out?,delivery_tracking,644.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+646,.@AmazonHelp Item has not been delivered but tracking says it was handed to me over an hour ago... 2nd time this has happened. Sort it out https://t.co/42W82GcARk,product_support,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+651,"@AmazonHelp I don't want a form to fill out that logs a response no one reads. I want to prevent AMZL from touching my stuff. Possible, or no?",other,650.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+654,@AmazonHelp Already started the return. UPS gets it from my doorstep tomorrow. Order 111-5014070-4118645,delivery_tracking,653.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+652,@AmazonHelp Is it possible to prevent AMZL from delivering my packages moving forward? Stuff is either lost/stolen/broken EVERY time.,delivery_not_received,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+657,"@AmazonHelp Already handled, just venting. It was a pretty big bummer.",acknowledgement,658.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+664,"@AmazonHelp delivery I paid for today,didn’t arrive.why not?i paid enough for it.where is it??I’m unhappy.refund the delivery charge",refund_payment,,AmazonHelp,AI-assisted candidate; human review required,escalate
+666,@AmazonHelp Aww your reply made her night!,other,665.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+669,@AmazonHelp I just said it's been sorted! I've been refunded! I'm just not impressed with the service any more.,refund_payment,668.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+685,@AmazonHelp Details sent. Please check.,other,684.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+686,@AmazonHelp Already contacted 3-4 times in the last month. But all I got was assurance that matter is escalated &amp; new status will be provided in 1 day!,human_escalation,689.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+690,@115850 @115821 @AmazonHelp @115851 Order# 3632693-6196346. You couldn't deliver EVEN AFTER A MONTH. You should be ashamed of yourself.,delivery_tracking,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+693,@AmazonHelp since when you stop giving 20% off videogame pre-orders (amazon prime members) im confused? why?,order_cancel_change,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1693,@AmazonHelp but I can’t find the options to cancel or re-order?,order_cancel_change,1692.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1694,@AmazonHelp Thanks for quick response. Pic attached. https://t.co/yNhYE638YS,acknowledgement,1692.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1698,@AmazonHelp Thats the thing I told customer service. I created a new email address for the Prime trial and forgot it. What can I do so I'm not charged?,refund_payment,1697.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1701,@AmazonHelp You have to log in. I don't remember the email address I used. Can you look up the account by my bank information?,account_access,1700.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1702,@AmazonHelp They sent me the email I sent you guys that said I wasn't gonna be charged. He must have been able to look up my account a different way.,refund_payment,1700.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1703,@AmazonHelp I tried my phone number but I didnt have a mobile account. I went through this for 2 hours on the phone with someone.,account_access,1700.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1699,@AmazonHelp I called customer service and was told my membership wouldn't be renewed. I was just charged today. How do I get a refund? https://t.co/SeoQUsA0VA,refund_payment,,AmazonHelp,AI-assisted candidate; human review required,escalate
+1706,"@AmazonHelp I have tried. It’s not allowing me to access my account to cancel my membership, I haven’t even used prime in almost 3 months.",order_cancel_change,1707.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1710,@AmazonHelp where can I chat with a support member for a false charge,refund_payment,,AmazonHelp,AI-assisted candidate; human review required,escalate
+1712,"@AmazonHelp So essentially still two separate accounts, just sharing payment info? I don't want my family to see my Christmas shopping list 😂",refund_payment,1711.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1713,@AmazonHelp if I add another adult to my Amazon household (with their own account) can they see my wishlists/photos/order history?,account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+1717,"@AmazonHelp My package just got here. All good, thank you!",delivery_tracking,1716.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1721,@AmazonHelp Never got the beta and now I’m being told I won’t get ANY of the other stuff. Including Last Jedi content and or bonus classes. Anything! :(,promotion_preorder,1720.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1724,@AmazonHelp Deluxe edition on September 16th. It definitely had the pre orders on the profile because that’s why I ordered. Also why I paid for Prime..,prime_membership,1723.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1726,@AmazonHelp Star Wars Battlefront 2 Elite Trooper Deluxe Edition Playstation 4 https://t.co/6K7WdDcY2P preorder info is in description. Thanks for help,order_cancel_change,1725.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1728,@AmazonHelp But your website is offering pre order content.... so it’s just a lie?,delivery_tracking,1727.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1731,@AmazonHelp It’s literally in the description of the item... “Players who pre-order Star Wars Battlefront...”,order_cancel_change,1728.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1732,@AmazonHelp @116089 is this real? They’re offering preorder bonuses but don’t actually give them out?,order_cancel_change,1731.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1729,@AmazonHelp So to get this straight. I get nothing at all for preordering?,order_cancel_change,1727.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1730,@AmazonHelp I’ve cancelled my order and gone to Best Buy. Thank you.,order_cancel_change,1727.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1735,"@AmazonHelp Fulfilled by Amazon. It’s quite disturbing you’re selling counterfeit items, and can’t be trusted.",other,1734.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1738,@AmazonHelp Already have and the assistance I received was absolutely useless and rude.,delivery_tracking,1737.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1736,Two fake items in one day. Time to cancel my Amazon Prime membership. @AmazonHelp,order_cancel_change,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1740,@AmazonHelp I have. No luck.,other,1739.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1744,@AmazonHelp It’s not allowing me to update it to register my new amazon account. I read I’d have to do so manually. Thx 4 response.,account_access,1743.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+1748,@AmazonHelp that is not my apartment!!!!!!! This is the sending time!!!! Where is my package!!!!!!!!!! https://t.co/EIY6DZUCDC,delivery_not_received,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1751,@AmazonHelp Yep. I’m going to take it to the MegaAlexa at Whole Foods.,product_support,1750.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+1752,@116096 Truly. This is the strangest vampire book I’ve ever received. 😜 cc @43760 @AmazonHelp #misship https://t.co/Zad7Az14Zg,delivery_tracking,1753.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2533,"@AmazonHelp 先日教えていただいたように、fireTVstickとルーターの両方を再起動してみたら、前回のようには途切れなくなりました！ありがとうございます😊今の所大丈夫ですが、あとは72時間TV当日に接続が切れてしまわないように祈るのみです...。
+お礼と報告まで。 https://t.co/hS5VmxuIfX",product_support,2534.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2535,@AmazonHelp ご丁寧にありがとうございます！トライしてみて改善されなければCSへご連絡します。返信いただけると思っていなかったので本当に嬉しいです！,acknowledgement,2536.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2537,"@AmazonHelp ありがとうございます！
+テレビにstickを接続しているのですが、WiFi接続がすぐに切れてしまい、数分しか見ることができません。",product_support,2538.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2543,"@AmazonHelp Just now, don't use Amazon much so didn't know the process if you don't receive an item",other,2542.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2544,@AmazonHelp Wasn't tracked as sent via Royal Mail. I've emailed the seller.,other,2546.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2547,@AmazonHelp Yeah I sent you a DM too. Had an email saying when it had been dispatched but nothing since.,delivery_tracking,2548.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2549,"@AmazonHelp Hi, I ordered an item on 18 Oct which said it would be delivered by 20 Oct and I still haven't received it. Can you help? Thanks",delivery_not_received,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2551,"@AmazonHelp I'm learning German, so I don't really mind between German/English. If I have to choose, I say German.",other,2552.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2555,@AmazonHelp I allowed it well past 8 PM. I was never notified about any other delays,other,2554.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2556,"@AmazonHelp I made a same day ship mid Monday and it said it would deliver that day. It didn’t. Today it still says out for delivery, still no show.",delivery_not_received,2558.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2559,"@AmazonHelp hello, I’m having an issue with a same day ship order.  Can you help me?",delivery_tracking,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2561,Erm @AmazonHelp I bought this item for £5.99... why am I only getting £1.67 back?! https://t.co/lb33bFOcW0,refund_payment,,AmazonHelp,AI-assisted candidate; human review required,escalate
+2565,@AmazonHelp Where is my order? https://t.co/pXnKSCo2ex,delivery_not_received,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2567,@AmazonHelp Bummer! I was hoping to get it quick. Oh well! Thanks for the response.,acknowledgement,2566.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2570,"@AmazonHelp yes i did,but amazonuk is not doing the refund process.if they do it .i will get the money",refund_payment,2571.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2572,@AmazonHelp i mailed amazonuk so many time. but i havent got any progress.customer care just saying thats in the billing section.no i havent got refund,refund_payment,2573.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2574,@AmazonHelp and redund issued on 13th https://t.co/1uydlorGCp no sing of my money and amazonuk just saying its in the billing department.no signof devlp,refund_payment,2575.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2579,"@AmazonHelp legacy ""shared prime benefits"" account trying to join an amazon household of the prim. account holder to share echo and set up voice profile",account_access,2578.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2581,"@AmazonHelp I've been in the prime queue, kindle queue, the echo queue, and now on hold again.",prime_membership,2579.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2580,the @amazonhelp queue is clueless on Amazon Household,human_escalation,,AmazonHelp,AI-assisted candidate; human review required,escalate
+2584,@AmazonHelp Well ok but @116324 said it’s been dlvd so I can’t see how they will bother to deliver it now! I think they have washed their hands of it,delivery_tracking,2585.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2586,@116324 not dlvd after 1 wk. U lied 2 @AmazonHelp saying left in safe place on Fri. Yesterday u said wld be dlvd 24-48hrs. Sort this now!,other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2588,@AmazonHelp I have made many calls to Amazon CS. No resolution. Now what? Member since ‘98. Need corporate involved.,human_escalation,2587.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2589,@AmazonHelp I’m not talking to customer service again. THATS part of the problem. I want someone in America @ corporate who can make decisions.,human_escalation,2587.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2590,@AmazonHelp So I see that Amazon Twitter is staffed by the same people as customer service. Each answer here spoken by s different person (or bot),acknowledgement,2587.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2591,@AmazonHelp No on the card. It works only half the time. Yes on USPS. They say my delivery person won’t deliver anything over 30 lbs. just sends it back,delivery_tracking,2592.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+2594,@AmazonHelp Want to speak to someone at corp to address these issues.,human_escalation,2595.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+2598,@AmazonHelp Multiple calls to call amazon call center with zero resolution and never a promised call back.,human_escalation,2599.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+3723,@AmazonHelp Have completed form and emailed you.,other,3722.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3724,@AmazonHelp There was only one costing a lot more than £20 and  FBA -stating eligibility !,refund_payment,3725.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+3728,@AmazonHelp All of them,other,3727.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3729,@AmazonHelp i reset my password 3 times and it still says incorrect you gotta be shitting me,account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+3732,@AmazonHelp I can’t log in because it’s locked.,account_access,3731.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+3733,"@AmazonHelp um, my account was locked as soon as I tried to login on desktop. I still haven’t received an email on how to get it unlocked...",account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+3736,@AmazonHelp Kann ich dann wenigstens mein Amazon-Konto aufladen um zu bezahlen. Ich habe keine Kreditkarte und möchte auch keine,other,3735.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3737,@AmazonHelp Warum ist es mir (und scheinbar auch ein paar anderen) nicht möglich per Bankeinzug zu bezahlen?,other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3740,"@AmazonHelp na ultima atualização da entrega do meu pedido, consta que não foi possível localizar o meu endereço, poderia ajudar?",other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3744,@AmazonHelp infórmese... no voy a perder más mi tiempo...,other,3745.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3748,"@AmazonHelp Many times, but still failing, and it happen with some show",product_support,3747.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3751,@AmazonHelp Sadly yes,other,3750.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3753,"@AmazonHelp Mac book pro, with Chrome",acknowledgement,3752.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+3756,"@AmazonHelp I need to change the language of my account to be able to get support, which I don't have the time to do, there's any other way to contact?",account_access,3755.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+4788,So sad @AmazonHelp @115830 ruined his FIRST Halloween by failing to deliver his tiny costume 2 days running #whypayprime? #amazon #prime,prime_membership,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4833,@AmazonHelp Thanks!  It was only a little awkward.... XD,acknowledgement,4832.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4837,"@AmazonHelp アカウント凍結して不正アクセスを調べてもらうことになりました。
+ありがとうございました。",other,4836.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4847,@AmazonHelp will i loose my account? Already tried help by link and by calling customer service,account_access,4846.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+4848,@AmazonHelp will i loose my account?I've tried help from that link and yesterday by phone customer service and no one is able to solve this,account_access,4846.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+4849,"@AmazonHelp how is Amazon going to solve this? By mail, text, call, customer phone service, no one is able to help me https://t.co/jhzCjY2bOw",other,4846.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4850,"@AmazonHelp already tried help by mail and still problem persist, please close my account and don't want to be a customer anymore https://t.co/m2g5tP26fX",account_access,4852.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+4853,"@AmazonHelp no luck it keeps asking for code witch is not sending to my phone can Amazon eliminate the 2 step method, this is so frustrating",other,4854.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4855,"@AmazonHelp no luck on receiving the code by text or call, will I loose my account, yesterday a phone representative tried to help already https://t.co/Yn5SUBQonU",account_access,4856.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+4857,@AmazonHelp USAs Amazon. Com,other,4858.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4859,@AmazonHelp Im not receiving 2step code by text or call in my smartphone can't log in into my account already got help by phone with no luck,account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+4863,@AmazonHelp They said it was UPS. UPS says they never received the package to deliver ¯\_(ツ)_/¯,delivery_not_received,4862.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4866,"@AmazonHelp Amazon's tracking says it's ""Shipped &amp; Arriving Today by 8pm"" but UPS Tracking shows just that a label is created.",delivery_tracking,4865.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4946,@AmazonHelp Excelente servicio! Recibí mis paquetes hace un par de minutos!,other,4945.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4947,@AmazonHelp Solo dice “en reparto” pero no tiene un número de contacto con el repartidor que es de Amazon Services 😩,other,4949.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4950,@AmazonHelp No. Como puedo contactarlo,other,4951.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+4956,@AmazonHelp I have no option but to see if my delivery arrives on the scheduled date. But I will contact customer services if it doesn't arrive on time.,delivery_tracking,4955.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5117,"@AmazonHelp I would like it replaced not refunded. But the sale is over, and doesn’t look like you have it in stock at the site. What are my other options?",refund_payment,5118.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5121,@AmazonHelp It's now a police matter. You could check the police report.,human_escalation,5123.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5127,@AmazonHelp And you guys have officially lost me as a customer. Was promised today...was never shipped. Give me my refund please so I may take my business else where. https://t.co/69tW0B5r9H,refund_payment,5126.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5128,"@AmazonHelp AMZL US Tracking ID TBA566517950000 it says delivered to mail room, I checked the mail and the front offce, the driver listed 1 package, in that one package was my XLR cables...I'm missing the controller.",delivery_not_received,5130.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5133,"@AmazonHelp No, I can't check. It shows nothing. And customer service rep was NO help.",other,5132.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5141,"@AmazonHelp いえいえ！
+問題解決しました！！助かりました、ありがとうございます(´；ω；｀)
+はい！これからもお世話になります〜🎶",acknowledgement,5140.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5142,@AmazonHelp 親切にどうもありがとうございます(;_;)(;_;),acknowledgement,5144.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5145,@AmazonHelp 今までコンビニで支払いが出きるという支払い方法でAmazonさんにお世話になっていたんですけど、選択画面にその支払い方法が表示されなくて、色々いじってみたんですけどどうにも……！,other,5146.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5149,@AmazonHelp Trying to get a friend's playlist on my Amazon music app but it keeps giving me the following message https://t.co/o6zINm6HBC,product_support,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5151,@AmazonHelp いつもお世話になってます(´ω`),other,5150.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5155,@AmazonHelp Thank you so much once again for kinds of word,acknowledgement,5154.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5158,@AmazonHelp Will you follow me on twitter,other,5157.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5281,@AmazonHelp I got a refund but I wanna check to see if it's actually lost,refund_payment,5280.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5284,@AmazonHelp I’m looking to reroute all my packages (except 1) to a nearby Amazon locker. I’ll DM you now :),delivery_tracking,5283.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5285,@AmazonHelp hey amazon - please help me :( i hVe tried calling and chatting with y’all but keep hitting walls. DM?,other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5290,@AmazonHelp चोट्टे,other,5289.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5293,@AmazonHelp Solicitud (foto del estado de cuenta),other,5294.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5122,@AmazonHelp You could ask the other Amazon Delivery driver who was there (and then slinked away when I called the police). I didn't get his name. You should require IDs,delivery_tracking,5121.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5307,"@AmazonHelp Can do, but that means I will miss out on Black Friday and Cyber Monday shopping.",other,5306.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5308,@AmazonHelp 10 hours ago.,other,5309.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5310,@AmazonHelp Yes.,other,5311.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5312,"@AmazonHelp Still not working.  They sent me a link to reset the password, try and sign in with new password and still locked out.",account_access,5313.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5315,@AmazonHelp Someone keeps trying to buy playstation cards on my account.  Having a hard time getting customer service,account_access,,AmazonHelp,AI-assisted candidate; human review required,escalate
+5317,"@AmazonHelp Danke für die schnelle Antwort... ja, ich werde mal nachfragen, was da schiefgelaufen sein soll. Ihnen auch einen schönen Abend noch.",acknowledgement,5318.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5319,"Ach schau an. Meine Bestellung war unzustellbar... @AmazonHelp, was ist da denn passiert? Bekomme ich mein Geld nun wieder?",other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5321,"@AmazonHelp For now, at least, until Prime Music starts shitting on its subscribers just like @116618.",prime_membership,5320.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5327,@AmazonHelp But why has every item got  3+ days processing time when it's usually next day,other,5326.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5328,@AmazonHelp Trying to place an order this happened before and deleting and rentering my address fixed it but now it's across multiple prime accounts to the same address,account_access,5330.0,AmazonHelp,AI-assisted candidate; human review required,escalate
+5331,@AmazonHelp live chat down in the UK and as a prime member I cannot t get any items delivered before Tuesday whats going on?,prime_membership,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5777,"@AmazonHelp Estoy al tlf con ellos, me lo reembolsan ahora mismo. Espero que ASM reciba algun tipo de sanción porque esto es una vergüenza.",other,5776.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5778,@AmazonHelp Pago para tener el Prime con vosotros para que me tarden en llegar 10 dias? Reembolsadme la compra y lo compro en cualquier otro sitio,prime_membership,5779.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5779,"@AmazonHelp https://t.co/ohEeuAt7A6 estais de coña no?el reembolso lo quiero ya, era para un regalo para hoy y tenia que llegar ayer.",other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5781,"@AmazonHelp poo. assinei hj pra ver a terceira e nada.. acha q so qnd acabar na tv americana? de qq forma, obrigado",other,5780.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5784,"@AmazonHelp ご丁寧にありがとうございます！
+逆に面白かったので全く問題ないです！ありがとうございます！",acknowledgement,5785.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5792,"@AmazonHelp Okay, thanks so much!",acknowledgement,5791.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5793,@AmazonHelp I’m trying off my fire stick,other,5795.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+5796,I go to watch #thebay and episode 7 &amp; 8 aren’t there??? 😭 @117090 @AmazonHelp,other,,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+6957,@AmazonHelp Please call me,other,6956.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+6960,@AmazonHelp Or you can provide me with a direct dial number and I’ll call it now,other,6959.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+6963,"@AmazonHelp Thank you. Spoke with customer service who was very nice &amp; helpful &amp; put me straight through to a Competent logistics person who documented issue, researched my acct &amp; was going to contact delivery Svc directly to ensure procedures followed. Time will tell. Thank you.",delivery_tracking,6962.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+6961,@AmazonHelp I tried that and ended up On page to provide package feedback too difficult and I did not have the time to search for your customer service number so if you follow me we can direct Message one another and I can give you my cell phone,delivery_tracking,6959.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle
+6958,"@AmazonHelp Will do in morning. By the way, I’ve complained about this same issue 3 times and twice before directly to carrier.",other,6965.0,AmazonHelp,AI-assisted candidate; human review required,auto_handle

@@ -1,0 +1,13 @@
+{
+  "brand": "AmazonHelp",
+  "dataset_rows": 5000,
+  "brand_inbound_examples": 154,
+  "brand_outbound_examples": 192,
+  "paired_examples": 116,
+  "evaluation_candidate_size": 154,
+  "retrieval_test_size": 24,
+  "retrieval_rouge_l_f1": 0.0977,
+  "intent_proxy_accuracy": 1.0,
+  "escalation_policy_trigger_rate": 0.1429,
+  "note": "Intent accuracy is agreement with the deterministic annotation rubric, not independent human ground truth."
+}
